@@ -1,0 +1,17 @@
+export const documentProps = {
+  title: 'Question of the Day',
+  description:
+    'A scaffold for a coming soon page with diy-pwa and vite-plugin-ssr',
+};
+import Header from '../components/Header.mdx';
+import Footer from '../components/Footer.mdx';
+import Main from '../components/Main.jsx';
+import Quiz from '../components/quiz.jsx';
+
+<Header />
+<Main>
+  # {documentProps.title}
+  <hr className="w3-border-grey" />
+  <Quiz />
+</Main>
+<Footer />
