@@ -32,10 +32,11 @@ export default function () {
         elements: [
           {
             type: 'radiogroup',
-            name: 'civilwar',
-            title: 'When was the American Civil War?',
-            choices: ['1796-1803', '1810-1814', '1861-1865', '1939-1945'],
-            correctAnswer: '1861-1865',
+            name: 'backpain',
+            title:
+              'Back injuries are the leading cause of work-related disabilities for people under the age of?',
+            choices: ['45', '50', '55', 'none of the above'],
+            correctAnswer: '45',
           },
         ],
       },
