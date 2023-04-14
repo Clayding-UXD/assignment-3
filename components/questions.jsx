@@ -5,7 +5,7 @@ import 'survey-core/defaultV2.min.css';
 
 export default function () {
   const json = {
-    title: 'American History',
+    title: 'Health and Safety',
     showProgressBar: 'bottom',
     showTimerPanel: 'top',
     maxTimeToFinishPage: 10,
@@ -44,16 +44,16 @@ export default function () {
         elements: [
           {
             type: 'radiogroup',
-            name: 'libertyordeath',
-            title: 'Whose quote is this: "Give me liberty, or give me death"?',
+            name: 'leadingcause',
+            title: 'Which of the following causes back injuries?',
             choicesOrder: 'random',
             choices: [
-              'John Hancock',
-              'James Madison',
-              'Patrick Henry',
-              'Samuel Adams',
+              'Lifting objects incorrectly',
+              'Being physically unfit',
+              'Poor posture',
+              'All of these are equally the cause',
             ],
-            correctAnswer: 'Patrick Henry',
+            correctAnswer: 'All of these are equally the cause',
           },
         ],
       },
